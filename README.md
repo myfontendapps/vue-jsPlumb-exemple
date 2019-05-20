@@ -8,6 +8,8 @@
 
 ## npm run dev
 
+## 浏览器打开网址：
+http://localhost:8086/
 
 
 > Use Jsplumb draw flow chart
