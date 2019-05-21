@@ -11,6 +11,7 @@ import routeDemos from './route-demo'
 // DragToWorkplace
 import DragToWorkplace from '@/views/DragToWorkplace'
 import DemoChart from '@/views/DemoChart'
+import TpChart from '@/views/TpChart'
 
 
 Vue.use(Router)
@@ -41,7 +42,17 @@ export default new Router({
           path:''
         }
       ] */
+    },
+    {
+      path: '/tp-chart',
+      name: 'TpChart',
+      component: TpChart,
+      /* children: [
+        {
+          path:''
+        }
+      ] */
     }
-    
+
   ]
 })

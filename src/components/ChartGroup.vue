@@ -51,7 +51,7 @@ export default {
   methods: {
     /**
      * 缩放回调函数
-     * @param {Event} e 
+     * @param {Event} e
      * @param {str} 方向 left right top bottom
      */
     resize (e, type) {
@@ -139,8 +139,8 @@ export default {
   border: 1px solid #ccc;
   position: absolute;
   padding-top: 24px;
-  min-width: 200px;
-  min-height: 250px;
+  min-width: 360px;
+  min-height: 130px;
 
   .title {
     position: absolute;

@@ -24,6 +24,7 @@
 			</el-submenu>
 			<el-menu-item index="/drag-to-workplace">drag to workplace</el-menu-item>
 			<el-menu-item index="/demo-chart">demo-chart</el-menu-item>
+			<el-menu-item index="/tp-chart">tp-chart</el-menu-item>
 		</el-menu>
 	</div>
 </template>
@@ -38,7 +39,7 @@ export default {
   },
   mounted() {
     console.log();
-    
+
   },
   methods: {
     handleSelect(key, keyPath) {
